@@ -3,6 +3,7 @@
 /**
  * max_value - checks the maximum value
  * @node: node to check value
+ * @value: value to compare
  * Return: the maximum value
  */
 int max_value(binary_tree_t *node, int value)
@@ -23,6 +24,7 @@ int max_value(binary_tree_t *node, int value)
 /**
  * min_value - checks the minimum value
  * @node: pointer to node whose value will be checked
+ * @value: value to compare
  * Return: the minimum value
  */
 int min_value(binary_tree_t *node, int value)
